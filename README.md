@@ -4,7 +4,7 @@
 **Funnel Analysis** is a marketing model which illustrates the theoretical customer journey towards the purchase of a product or service. Oftentimes, we want to track how many users complete a series of steps and know which steps have the most number of users giving up. 
 
 ## 1. Get familar with the tables
-#### 4 tables
+#### Four tables
 There are 1986 users participating the survey--> 1000 users participate the quiz --> 750 users have the home-try-on --> 495 users make the purchae
 ```sql
 /*
@@ -14,7 +14,7 @@ SELECT * FROM home_try_on LIMIT 5;
 SELECT * FROM purchase LIMIT 5;
 */
 ```
-### 1). survey table
+#### 1). survey table
 question	|user_id	|response|
 ----------|---------|--------|
 |1. What are you looking for?	|005e7f99-d48c-4fce-b605-10506c85aaf7	|Women's Styles|
@@ -24,7 +24,7 @@ question	|user_id	|response|
 |6. What are you looking for?	|00a556ed-f13e-4c67-8704-27e3573684cd	|I'm not sure. Let's skip it.|
 
 
-### 2). quiz table
+#### 2). quiz table
 user_id	|style	|fit	|shape	|color|
 --------|-------|-----|-------|-----|
 |4e8118dc|-bb3d-49bf-85fc-cca8d83232ac|	Women's Styles|	Medium|	Rectangular	Tortoise|
@@ -33,7 +33,7 @@ user_id	|style	|fit	|shape	|color|
 |75bc6ebd|-40cd-4e1d-a301-27ddd93b12e2|	Women's Styles|	Narrow|	Square	Two-Tone|
 |ce965c4d|-7a2b-4db6-9847-601747fa7812|	Women's Styles|	Wide|	Rectangular	Black|
 
-### 3). home-try-on table
+#### 3). home-try-on table
 user_id	|number_of_pairs	|address|
 --------|-----------------|-------|
 |d8addd87-3217-4429-9a01-d56d68111da7|	5 pairs|	145 New York 9a|
@@ -43,7 +43,7 @@ user_id	|number_of_pairs	|address|
 |3bc8f97f-2336-4dab-bd86-e391609dab97|	5 pairs|	182 Cornelia St|
 
 
-### 4). quiz table
+#### 4). quiz table
 user_id	|product_id	|style	|model_name	|color|	price|
 --------|-----------|-------|-----------|-----|------|
 |00a9dd17-36c8-430c-9d76-df49d4197dcf	|8	|Women's Styles|	Lucy	|Jet Black	|150|
