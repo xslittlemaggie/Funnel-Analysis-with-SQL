@@ -87,7 +87,7 @@ SELECT * FROM step_3
 ;
 ```
 
-### Step 1. Output
+### Output
 Question_Number|	Response_Number|	Percent Completing this Question (%)|
 ---------|-------|-----|
 |1	|500|	100|
@@ -118,7 +118,7 @@ LEFT JOIN purchase
 ON home_try_on.user_id = purchase.user_id
 LIMIT 10;
 ```
-### Step 2. Output
+### Output
 
 user_id|	is_home_try_on|	number_of_pairs|	is_purchase|
 -----|----|-------|-----|
@@ -159,7 +159,7 @@ ROUND(100.0 *num_purchase/num_home_try_on, 2) AS home_try_to_purchase_pct
 FROM aggegate;
 ```
 
-### Step 3. Output
+### Output
 
 |number_of_pairs|	num_users|	num_purchase|	quiz_to_home_try_pct(%)|home_try_to_purchase_pct(%)
 |-|-----|-----|-------|------|
