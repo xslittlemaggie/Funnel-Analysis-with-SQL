@@ -18,7 +18,6 @@ SELECT * FROM purchase LIMIT 5;
 question	|user_id	|response|
 ----------|---------|--------|
 |1. What are you looking for?	|005e7f99-d48c-4fce-b605-10506c85aaf7	|Women's Styles|
-
 |3. What's your fit? |005e7f99-d48c-4fce-b605-10506c85aaf7	|Medium|
 |4. Which shapes do you like?	|00a556ed-f13e-4c67-8704-27e3573684cd	|Round|
 |5. Which colors do you like?	|00a556ed-f13e-4c67-8704-27e3573684cd	|Two-Tone|
