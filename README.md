@@ -1,5 +1,5 @@
 # Funnel-Analysis-with-SQL
-# Project 1: Funnel Analysis 
+# Funnel Analysis 
 
 **Funnel Analysis** is a marketing model which illustrates the theoretical customer journey towards the purchase of a product or service. Oftentimes, we want to track how many users complete a series of steps and know which steps have the most number of users giving up. 
 
@@ -168,4 +168,4 @@ FROM aggegate;
 
 
 ### Conclusion 
-From the process above, a slightly less users choose the number_of_pairs of 5, but if the users choose number_of_pairs of 5, they are more likely to make the purchase. 
+From the process above, a slightly less users choose the number_of_pairs of 5, but if the users choose number_of_pairs of 5, they are more likely to make the purchase. Thus, we can take actions to increase the number of peole choosing number_of_pairs of 5 to increase purchase rate.
