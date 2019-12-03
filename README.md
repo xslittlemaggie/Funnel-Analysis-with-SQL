@@ -88,7 +88,7 @@ SELECT * FROM step_3
 ```
 
 ### Step 1. Output
-Question_Number|	Response_Number|	Percent Completing this Question|
+Question_Number|	Response_Number|	Percent Completing this Question (%)|
 ---------|-------|-----|
 |1	|500|	100|
 |2	|475|	95.0|
@@ -96,7 +96,7 @@ Question_Number|	Response_Number|	Percent Completing this Question|
 |4	|361|	95.0|
 |5	|270|	74.0|
 
-### Step 2: User left join function to combine the tables 
+### Step 2: Use left join function to combine the tables 
 ### Functions used: 
 - left join 
 - substr()
